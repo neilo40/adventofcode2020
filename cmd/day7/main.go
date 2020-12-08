@@ -69,6 +69,7 @@ func countUnique(colours []string) int {
 
 func part2() {
 	mapping := getRequiredContentsMapping()
+	//countBags includes the shiny gold bag in the total so we need to subtract 1 from the total
 	fmt.Println(countBags(1, mapping, "shiny gold") - 1)
 }
 
