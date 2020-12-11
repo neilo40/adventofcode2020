@@ -17,6 +17,6 @@ func part1() {
 }
 
 func part2() {
-	lines := common.ReadFileString("dayX.input")
+	//lines := common.ReadFileString("dayX.input")
 	fmt.Printf("Result: \n")
 }
